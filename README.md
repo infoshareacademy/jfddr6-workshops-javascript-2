@@ -1,12 +1,3 @@
-2021-12-08 JavaScript - obsługa zdarzeń i callback
-==================================================
-
-Prowadzący zajęcia: Jacek Mikrut
-
-Katalogi:
-- `exercises` - początkowe wersje plików, na których możesz pracować
-- `exercises-solutions` - gotowe (przykładowe) rozwiązania
-
 Ćwiczenie: 1-counter
 --------------------
 
