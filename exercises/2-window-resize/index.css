@@ -1,0 +1,26 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: steelblue;
+  color: snow;
+}
+
+#window-size-info {
+  position: fixed;
+  inset: 50% auto auto 50%;
+  transform: translate(-50%, -50%);
+  border: solid 1px white;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  background-color: snow;
+  color: #333;
+  font-size: 2rem;
+  animation-name: fadeout;
+  animation-delay: 1s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeout { from { opacity: 1; } to { opacity: 0; }}

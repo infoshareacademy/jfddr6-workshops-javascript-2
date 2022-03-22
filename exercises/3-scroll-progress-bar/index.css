@@ -1,0 +1,22 @@
+html {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+  padding: 4rem;
+  background-color: steelblue;
+  color: snow;
+  font-size: 1.4rem;
+}
+
+p {
+  text-align: justify;
+}
+
+#scroll-progress-bar {
+  position: fixed;
+  inset: 0 auto auto 0;
+  height: 4px;
+  width: var(--percents, 0);
+  background-color: snow;
+}

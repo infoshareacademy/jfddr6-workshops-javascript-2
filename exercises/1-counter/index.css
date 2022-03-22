@@ -1,0 +1,57 @@
+html {
+  font-family: 'Courier New';
+}
+
+button {
+  font-family: inherit;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: steelblue;
+  color: snow;
+}
+
+.counter {
+  padding: 1rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.counter .count {
+  flex: 1 1 100%;
+  margin: 0;
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 8rem;
+  font-weight: bold;
+}
+
+.counter .button {
+  flex: 0 0 auto;
+  border: solid 0.25rem snow;
+  border-radius: 0.5rem;
+  min-width: 4rem;
+  min-height: 4rem;
+  font-size: 3rem;
+  font-weight: bold;
+  background-color: steelblue;
+  color: snow;
+  cursor: pointer;
+}
+
+.counter .button:not(:disabled):hover {
+  background-color: snow;
+  color: steelblue;
+}
+
+.counter .button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
